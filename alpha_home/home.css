@@ -1,0 +1,206 @@
+/* General Styles */
+body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          background-color: #f4f4f4;
+      }
+      
+      .container {
+          width: 90%;
+          margin: 0 auto;
+         
+      }
+          
+      /* Header */
+      header {
+          background-color: #007BFF;
+          color: white;
+      }
+      
+      nav {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 1em 0;
+      }
+      
+      nav h1 {
+          margin-bottom: 20px;
+      }
+      
+      nav ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+      }
+      
+      nav ul li {
+          margin-left: 1em;
+          
+      }
+      
+      nav ul li a {
+          color: white;
+          text-decoration: none;
+          font-weight: bold;
+          padding-right: 40px;
+          padding-top: 50px;
+        
+      }
+      p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      
+      /* Hero Section */
+      .hero {
+          background-image: url('travel-hero.jpg'); /* Add a high-quality travel-related image */
+          background-size: cover;
+          background-position: center;
+          padding: 4em 0;
+          text-align: center;
+          color: #fff;
+      }
+      
+      .hero h2 {
+          margin-top: 0;
+          font-size: 2.5em;
+      }
+      
+      .cta-button {
+          display: inline-block;
+          padding: 0.7em 1.5em;
+          background-color: #28a745;
+          color: white;
+          text-decoration: none;
+          border-radius: 5px;
+          font-weight: bold;
+      }
+      
+      .cta-button:hover {
+          background-color: #218838;
+      }
+      
+      /* Destinations Section */
+      .destinations {
+          padding: 3em 0;
+          text-align: center;
+      }
+      
+      .destinations h2 {
+          color: #007BFF;
+      }
+      
+      .destination-cards {
+          display: flex;
+          justify-content: center;
+          gap: 1em;
+          flex-wrap: wrap;
+      }
+      
+      .card {
+          background: white;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+          padding: 1em;
+          max-width: 300px;
+      }
+      
+      .card img {
+          width: 100%;
+          height: auto;
+          border-radius: 8px;
+      }
+      
+      .card h3 {
+          margin-top: 0.5em;
+      }
+      
+      /* Search Section */
+      .search {
+          background-color: #e9ecef;
+          padding: 3em 0;
+      }
+      
+      .search form {
+          max-width: 600px;
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column;
+      }
+      
+      .search form label {
+          margin: 0.5em 0 0.2em;
+      }
+      
+      .search form input {
+          padding: 0.7em;
+          margin-bottom: 1em;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+      }
+      
+      .search form button {
+          padding: 0.7em;
+          background-color: #007BFF;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          font-weight: bold;
+      }
+      
+      .search form button:hover {
+          background-color: #0056b3;
+      }
+      
+      /* Contact Section */
+      .contact {
+          padding: 3em 0;
+      }
+      
+      .contact form {
+          max-width: 600px;
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column;
+      }
+      
+      .contact form label {
+          margin: 0.5em 0 0.2em;
+          font-weight: bold;
+      }
+      
+      .contact form input,
+      .contact form textarea {
+          padding: 0.7em;
+          margin-bottom: 1em;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+      }
+      
+      .contact form button {
+          padding: 0.7em;
+          background-color: #007BFF;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          font-weight: bold;
+      }
+      
+      .contact form button:hover {
+          background-color: #0056b3;
+      }
+      
+      /* Footer */
+      footer {
+          background-color: #007BFF;
+          color: white;
+          padding: 1em 0;
+          text-align: center;
+      }
+      

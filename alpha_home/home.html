@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the World </title>
+    <link rel="stylesheet" href="/Stylee/Style.css">
+    <link rel="stylesheet" href="manu_bar.css">
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+             <i><h1 style="color: black;">Destination Discovery</h1><i>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#search">Search</a></li>
+                    <li><a href="#contact">Contact</a></li> 
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="/Stylee/All_ov_home.css">India</a>
+  <a href="america/amerika_home.html">America</a>
+  <a href="china/ch/china.home.html">china</a>
+  <a href="russia/russ.home.html">Russia</a>
+  <a href="japan/japan_home.html">Japan</a>
+  <a href="london/london_home.html">London</a>
+  <a href="dubai project/dubai.home.html">Dubai</a>
+  <a href="#">Pakistan</a>
+        </div>
+          <span style="font-size:30px;cursor:pointer"onclick="openNav()">&#9776;</span>
+        
+        <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+    <section id="home" class="hero">
+        <div class="container">
+            <h2 style="color: black;">Discover Your Next Adventure</h2>
+            <p style="color: black;">Find amazing places to visit and make your travel dreams come true.</p>
+            <a href="#search" class="cta-button">Start Searching</a>
+        </div>
+    </section>
+    <section id="destinations" class="destinations">
+        <div class="container">
+            <!-- <h2>Top Destinations</h2> --> 
+            <div class="destination-cards">
+                <div class="card">
+                    <img src="./chokha_bati.jpg" alt="Paris">
+                <h3>new york</h3>
+                    <p>The city of lights awaits you with its romantic ambiance and rich history.</p>
+                </div>
+                <div class="card">
+                    <img src="tokyo.jpg" alt="Tokyo">
+                    <h3>Tokyo</h3>
+                    <p>Experience the vibrant culture and advanced technology of Japan's capital.</p>
+                </div>
+                <div class="card">
+                    <img src="nyc.jpg" alt="New York City">
+                    <h3>New York City</h3>
+                    <p>The city that never sleeps, offering endless attractions and cultural experiences.</p>
+                </div>
+                <div class="card">
+                    <img src="new york.webp" alt="New York City">
+                    <h3>New York City</h3>
+                    <p>The city that never sleeps, offering endless attractions and cultural experiences.</p>
+                </div>
+                <div class="card">
+                    <img src="nyc.jpg" alt="New York City">
+                    <h3>New York City</h3>
+                    <p>The city that never sleeps, offering endless attractions and cultural experiences.</p>
+                </div> <div class="card">
+                    <img src="nyc.jpg" alt="New York City">
+                    <h3>New York City</h3>
+                    <p>The city that never sleeps, offering endless attractions and cultural experiences.</p>
+                </div>
+                <div class="card">
+                    <img src="nyc.jpg" alt="New York City">
+                    <h3>New York City</h3>
+                    <p>The city that never sleeps, offering endless attractions and cultural experiences.</p>
+                </div>
+                <div class="card">
+                    <img src="nyc.jpg" alt="New York City">
+                    <h3>New York City</h3>
+                    <p>The city that never sleeps, offering endless attractions and cultural experiences.</p>
+                </div>
+                <div class="card">
+                    <img src="nyc.jpg" alt="New York City">
+                    <h3>New York City</h3>
+                    <p>The city that never sleeps, offering endless attractions and cultural experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="search" class="search">
+        <div class="container">
+            <h2>Find Your Next Trip</h2>
+            <form>
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" placeholder="Enter a city or country" required>
+                
+                <label for="dates">Dates:</label>
+                <input type="text" id="dates" name="dates" placeholder="e.g., June 1 - June 15" required>
+                
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Explore the World. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
